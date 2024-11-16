@@ -113,3 +113,4 @@ websocket-client==1.8.0
 widgetsnbextension==4.0.13
 xgboost==2.1.1
 praat-parselmouth==0.4.5
+numba==0.60.0
