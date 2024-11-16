@@ -1,0 +1,18 @@
+PD#: 40
+HC#: 41
+
+vowel: /a/
+
+Features: 
+1.	Age 
+2.	Sex
+
+Note: These recordings were made using participant's telephones.
+
+About data in each sheet (no explanation is given on the website), gpt explanations are shown below:
+Linear Predictive Coding (LPC) coefficients: modeling the vocal tract's spectral envelope
+Log-Area Ratio (LAR) coefficients: representing vocal tract area differences
+Cepstral coefficients: reflecting frequency dynamics in the speech signal
+Mel-Frequency Cepstral Coefficients: emphasizing features aligned with human auditory perception
+
+Question: each recording has several values for the same coefficient.
