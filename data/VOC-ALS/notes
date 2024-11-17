@@ -1,0 +1,40 @@
+VOC-ALS Dataset
+VOiCe signals acquired in Amyotrophic Lateral Sclerosis
+
+Overview
+The VOC-ALS dataset contains voice recordings and clinical profiles collected to study speech-related biomarkers for Amyotrophic Lateral Sclerosis (ALS) and Healthy Controls (HC). The dataset includes recordings of vowels (/a/, /e/, /i/, /o/, /u/) and repetitions of syllables (/pa/, /ta/, /ka/), recorded via mobile devices under controlled conditions.
+
+Participants:
+ALS: 102 participants (65 males, 37 females) with varying dysarthria severity.
+HC: 51 participants (32 males, 19 females).
+Total Recordings: 1224 audio files from 153 participants.
+Data Description
+Recording Details:
+Device: Samsung Galaxy S8+ (Android 9.0).
+Sampling Rate: 8000 Hz, 16-bit resolution.
+Environment: Quiet (< 30 dB), dry (humidity 35-40%), stress-free conditions.
+Setup: Device held ~20 cm from the mouth, angled at ~45 degrees.
+Data Includes:
+Vowel Recordings:
+Continuous vocalization of vowels: /a/, /e/, /i/, /o/, /u/ (5 seconds each).
+Syllable Repetitions:
+Fast repetitions of /pa/, /ta/, and /ka/ in a single breath.
+Demographic and Clinical Profiles:
+Features:
+Demographics: Age, Sex, Onset Region.
+Clinical: Diagnostic Delay, Disease Duration, FVC%, ALSFRS-R (total and subscores), King Clinical Stage, Muscle Strength (MRC), and PUMNS scores.
+Acoustic Metrics:
+Fundamental Frequency (F0): Mean and Standard Deviation.
+Harmonics-to-Noise Ratio (HNR).
+Local Jitter and Shimmer.
+Features
+Speech Features:
+
+Linear Predictive Coding (LPC): Models the vocal tract's spectral envelope.
+Log-Area Ratio (LAR): Represents differences in vocal tract area.
+Cepstral Coefficients: Captures speech signal frequency dynamics.
+Mel-Frequency Cepstral Coefficients (MFCC): Focuses on human auditory perception.
+Acoustic Metrics:
+
+Mean and Standard Deviation of F0.
+HNR, Local Jitter, Local Shimmer (for vowels and syllables).
