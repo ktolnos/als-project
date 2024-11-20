@@ -67,24 +67,47 @@ files = glob.glob(folder+"*.wav", recursive=True)
 
 count=1
 
-# Get the column names by running the analysis on one file to see what it returns
-sample_output = run_analysis_single(files[0], pr_script, tg_script)
+# Upload the final consolidated  dataframe
+metadata_path = "/Users/mahrikadyrova/Desktop/github_repos/als-project/data/final_consolidated_dataset_.csv"
+df = pd.read_csv(metadata_path)
+relative_path = os.path.dirname(os.path.dirname(metadata_path))
 
-columns = sample_output.columns
+
+# Get the column names by running the analysis on one file to see what it returns
+first_path = df.loc[1,"file_path"]
+first_path =  os.path.join(relative_path, first_path)
+sample_output = run_analysis_single(first_path, pr_script, tg_script)
+
+new_columns = df.columns.to_list() + sample_output.columns.to_list()
 
 # Initialize the DataFrame with columns from sample_output
-total_output = pd.DataFrame(columns=sample_output.columns)
+
+combined_rows = []
+
+df_791 = df.loc[791:,:]
+error = []
 
 
-for file in files:
-    print(f"{count}.->{os.path.basename(file)}")
+for index, row in df_791.iterrows():
 
-    out = run_analysis_single(file, pr_script, tg_script, get_acoustics)
+    file_path = os.path.join(relative_path, row['file_path'])
+    print(f"{count}  ->  {os.path.basename(file_path)}")
+
+    try:
+        out = run_analysis_single(file_path, pr_script, tg_script)
+        combined_row = list(row) +  list(out.iloc[0,:])
+        combined_rows.append(combined_row)
+
+        print(combined_row)
+
+        total_output = pd.DataFrame(combined_rows, columns=new_columns)
+        total_output.to_csv(os.path.join(relative_path, "metadata_acoustic_clinical.csv"))   
+
+        count += 1
+    except:
+        error.append(file_path)
 
     
-    total_output = pd.concat([total_output, out])
 
-    
-    total_output.to_csv(os.path.join(os.path.dirname(file), "test_csv.csv"))
-    count += 1
+
 
