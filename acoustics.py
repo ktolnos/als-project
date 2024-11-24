@@ -9,6 +9,9 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from numpy import linalg
 from typing import List
+from python_speech_features import delta
+from itertools import product
+from scipy.stats import describe
 
 from extraction import (
     compute_complexity_array
@@ -365,6 +368,57 @@ def get_jitter(pointProcess: parselmouth.Data) -> pd.DataFrame:
     )
 
 
+def get_MFCCs(sound: parselmouth.Sound) -> pd.DataFrame:
+    """
+    Returns a pandas dataframe with MFCC measures.
+
+    Parameters
+    ----------
+    sound: (parselmouth.Sound)
+        A parselmouth.Sound object created from raw data. e.g., sound = parselmouth.Sound(path/to/file).
+
+    Returns
+    -------
+    (pd.DataFrame) 
+    A Pandas dataframe that contains the mel-frequency cepstral coefficients (MFCCs). Note that as 
+    per Parselmouth/Praat, the first feature is energy, and the remaining n features are true MFCCs. 
+    Thus, the default output is 1 energy feature + 13 MFCC feature sets.
+
+    """
+
+    n_mfcc = (
+        1 + 13
+    )
+    mfcc_object = sound.to_mfcc(number_of_coefficients=n_mfcc - 1)
+    mfcc0 = mfcc_object.to_array().T
+    mfccs = np.c_[mfcc0, delta(mfcc0, 2)]
+    tsc_mfcc = np.sum(np.gradient(mfcc0[:, 1:], axis=0) ** 2, axis=1)
+
+    tsc_mfcc_df = pd.DataFrame(
+        {
+            "tsc_mfcc_mean": tsc_mfcc.mean(),
+            "tsc_mfcc_cv": tsc_mfcc.std() / tsc_mfcc.mean(),
+        },
+        index=[0],
+    )
+
+    mfcc_df = pd.DataFrame(
+        data=mfccs,
+        columns=["mfcc_" + str(k) for k in range(n_mfcc)]
+        + ["mfcc_slope_" + str(k) for k in range(n_mfcc)],
+    )
+    _, _, mu, sig, _, _ = describe(mfccs, axis=0)
+    mfcc_stats = np.r_[mu, sig]
+    mfcc_summary_df = pd.DataFrame(
+        data=mfcc_stats.T,
+        index=[
+            "_".join([x, y]) for x, y in list(product(["mean", "var"], mfcc_df.columns))
+        ],
+    ).T
+
+    return pd.concat([tsc_mfcc_df, mfcc_summary_df], axis=1)
+
+
 def get_harmonicity(voiced: parselmouth.Sound) -> pd.DataFrame:
     """
     Returns a pandas dataframe containing harmonicity mean and SD measures.
@@ -609,6 +663,7 @@ def acstc_anlys(
     # Get relevant variables
     f_old = os.path.basename(file)
     fnew = f_old.replace(".wav", "_OnlyVoiced.wav")
+    sound = parselmouth.Sound(f"{data_dir}/{f_old}")
     voiced = parselmouth.Sound(f"{data_dir}/voiced/{fnew}")
 
     # Extract F0 and formants - ignore calling it "pitch"
@@ -642,6 +697,7 @@ def acstc_anlys(
     )
     formant_accels_df = get_formant_accels(formant_slope_values, pitch_times)
     intensity_df = get_intensity(voiced)
+    mfccs_df = get_MFCCs(sound)
    
 
     voiced_norm = voiced.copy()
@@ -685,6 +741,7 @@ def acstc_anlys(
             formant_slopes_df,
             formant_accels_df,
             intensity_df,
+            mfccs_df,
             complexities_df,
         ],
         axis=1,

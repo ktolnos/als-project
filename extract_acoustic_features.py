@@ -68,7 +68,7 @@ files = glob.glob(folder+"*.wav", recursive=True)
 count=1
 
 # Upload the final consolidated  dataframe
-metadata_path = "/Users/mahrikadyrova/Desktop/github_repos/als-project/data/final_consolidated_dataset_.csv"
+metadata_path = "/Users/mahrikadyrova/Desktop/github_repos/als-project/data/final_consolidated_dataset_Fletcher.csv"
 df = pd.read_csv(metadata_path)
 relative_path = os.path.dirname(os.path.dirname(metadata_path))
 
@@ -83,12 +83,12 @@ new_columns = df.columns.to_list() + sample_output.columns.to_list()
 # Initialize the DataFrame with columns from sample_output
 
 combined_rows = []
-
-df_791 = df.loc[791:,:]
 error = []
 
+df_948 = df.iloc[948:,:]
 
-for index, row in df_791.iterrows():
+
+for index, row in df_948.iterrows():
 
     file_path = os.path.join(relative_path, row['file_path'])
     print(f"{count}  ->  {os.path.basename(file_path)}")
@@ -106,6 +106,9 @@ for index, row in df_791.iterrows():
         count += 1
     except:
         error.append(file_path)
+
+error_df = pd.DataFrame(error, columns="error")
+error_df.to_csv(os.path.join(relative_path, "error_files.csv"))
 
     
 
