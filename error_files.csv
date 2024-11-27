@@ -1,0 +1,221 @@
+file,error
+/Users/edward/Documents/GitHub/als-project/filtered/data/MSA_dataset/MSA_i_2/voiced/MSA11i2_clean_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/MSA_dataset/MSA_i_2/voiced/MSA11i1_clean_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PSP_dataset/PSP_i_1/voiced/PSP5i1_clean_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/257A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/220A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/218A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/233A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/228A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/247A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/258A_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/225A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/202A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/264A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/263A_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/262A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_noEP_Audios/voiced/226A_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/136A_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/122A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/155A_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/128A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/149A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/145A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/115A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/101A_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/102A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/120A_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/113A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_1/A_EP_Audios/voiced/141A_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_3/PD_AH/voiced/AH_545841227-5C77713A-66F1-49D0-BC8A-702C152E668D_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/PD_dataset_3/HC_AH/voiced/AH_777G_4C8ACC89-7FE2-4174-AE3A-B21B39A0C869_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/125_a_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/049_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/042_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/131_i_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/026_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/123_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/099_a_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/127_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/123_a_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/026_a_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/111_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/006_i_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/119_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/099_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/125_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/HC/voiced/129_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/098_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/008_a_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/076_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/096_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/092_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/094_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/092_a_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Minsk2020_ALS_database/ALS/voiced/102_i_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/LUIGI P/voiced/VI2LPUUITGI41M230320171113_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/LUIGI P/voiced/VI1LPUUITGI41M230320171113_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITO L/voiced/VI1VLIATFOO55M300320171247_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITO L/voiced/VE2VLIATFOO55M300320171246_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITO L/voiced/VI2VLIATFOO55M300320171247_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITO L/voiced/VE1VLIATFOO55M300320171246_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/NICOLA P/voiced/VI1NPIICEOR42M020420171811_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/NICOLA P/voiced/VI2NPIICEOR42M020420171811_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GIOVANNI B/voiced/VI2GBIAORVI48M230320171238_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GIOVANNI B/voiced/VE2GBIAORVI48M230320171237_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GIOVANNI B/voiced/VI1GBIAORVI48M230320171237_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GIOVANNI B/voiced/VE1GBIAORVI48M230320171236_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VO2GCIALSDA52F170320171130_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VI2GCIALSDA52F170320171129_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VU1GCIALSDA52F170320171130_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VE1GCIALSDA52F170320171127_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VI1GCIALSDA52F170320171128_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/GILDA C/voiced/VE2GCIALSDA52F170320171128_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/AGNESE P/voiced/VE2APGANRET55F170320171109_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/AGNESE P/voiced/VI1APGANRET55F170320171109_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITANTONIO D/voiced/VA1VDIET AS47M210320170942_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/VITANTONIO D/voiced/VI1VDIET AS47M210320170944_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/ANGELA C/voiced/VE2ACNAGRER49F210320170921_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/ANGELA C/voiced/VE1ACNAGRER49F210320170921_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/BRIGIDA C/voiced/VI1BCRAISGS48F210320171007_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/22 Elderly Healthy Control/BRIGIDA C/voiced/VI2BCRAISGS48F210320171007_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto R/voiced/VI2RROIBVEI49M240120171909_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto R/voiced/VE2RROIBVEI49M240120171907_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto R/voiced/VI1RROIBVEI49M240120171908_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Vito S/voiced/VE2VSIPTIOZ46M240120171927_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Vito S/voiced/VA2VSIPTIOZ46M240120171925_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Michele C/voiced/VI1MCIICLHL46M240120171831_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Michele C/voiced/VI2MCIICLHL46M240120171832_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Nicola S/voiced/VI2NSICCHOI44M240120171848_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VI1RLOABREE42M240120171949_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VA1RLOABREE42M240120171947_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VE2RLOABREE42M240120171949_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VI2RLOABREE42M240120171950_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VE1RLOABREE42M240120171948_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/11-16/Roberto L/voiced/VA2RLOABREE42M240120171947_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Luigi B/voiced/VI1lbuairgo52M1606161816_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Luigi B/voiced/VI2lbuairgo52M1606161816_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Vito S/voiced/VI2vsiptioz46M1606161707_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Vito S/voiced/VI1vsiptioz46M1606161707_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Ugo B/voiced/VA2ubguot_t40M1606161759_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Ugo B/voiced/VI1ubguot_t40M1606161801_OnlyVoiced.wav,"Command requires more than the given 2 arguments: no value for argument ""Subtract mean"".
+"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Ugo B/voiced/VA1ubguot_t40M1606161759_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Nicola S/voiced/VI1sncihcio44M1606161722_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/6-10/Nicola S/voiced/VI2sncihcio44M1606161722_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Roberto R/voiced/VE1rriovbie49M2605161846_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Roberto R/voiced/VI2rriovbie49M2605161848_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Roberto R/voiced/VE2rriovbie49M2605161846_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Roberto R/voiced/VI1rriovbie49M2605161847_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Leonarda L/voiced/VI2lloeroun56F2605161930_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/1-5/Leonarda L/voiced/VI1lloeroun56F2605161929_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Giulia P/voiced/VI2GPIUUGLL63F100220171026_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Giulia P/voiced/VE2GPIUUGLL63F100220171025_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Giulia P/voiced/VI1GPIUUGLL63F100220171025_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Giovanni M/voiced/VE1GMIAOSVI44M100220170947_OnlyVoiced.wav,"Input X contains NaN.
+PCA does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values"
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Nicola M/voiced/VA2NMIICNOO52M100220171137_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Nicola M/voiced/VE1NMIICNOO52M100220171138_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Nicola M/voiced/VA1NMIICNOO52M100220171136_OnlyVoiced.wav,index 0 is out of bounds for axis 0 with size 0
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Nicola M/voiced/VE2NMIICNOO52M100220171139_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Mario B/voiced/VI2MBAUROIN45M100220171010_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Vito S/voiced/VE2VSIOTLOP47M100220171333_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
+/Users/edward/Documents/GitHub/als-project/filtered/data/Italian_Parkinsons_Voice_and_speech/28 People with Parkinson's disease/17-28/Giovanni N/voiced/VI2GNIEOGVL47M100220171219_OnlyVoiced.wav,"To analyse this Sound, “minimum pitch” must not be less than 1000 Hz.
+Sound ""untitled"": pitch analysis not performed."
