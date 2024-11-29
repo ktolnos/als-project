@@ -1,0 +1,587 @@
+Epoch 1/30
+Training Loss: 0.7085
+Validation Accuracy: 0.6190
+ROC AUC: 0.4615
+F1 Score: 0.4734
+Confusion matrix: 
+[[ 0 16]
+ [ 0 26]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.00      0.00      0.00        16
+     Class 1       0.62      1.00      0.76        26
+
+    accuracy                           0.62        42
+   macro avg       0.31      0.50      0.38        42
+weighted avg       0.38      0.62      0.47        42
+
+--------------------------------------------------
+Epoch 2/30
+Training Loss: 0.6151
+Validation Accuracy: 0.3333
+ROC AUC: 0.2572
+F1 Score: 0.3242
+Confusion matrix: 
+[[ 8  8]
+ [20  6]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.29      0.50      0.36        16
+     Class 1       0.43      0.23      0.30        26
+
+    accuracy                           0.33        42
+   macro avg       0.36      0.37      0.33        42
+weighted avg       0.37      0.33      0.32        42
+
+--------------------------------------------------
+Epoch 3/30
+Training Loss: 0.5591
+Validation Accuracy: 0.6667
+ROC AUC: 0.7067
+F1 Score: 0.6712
+Confusion matrix: 
+[[12  4]
+ [10 16]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.55      0.75      0.63        16
+     Class 1       0.80      0.62      0.70        26
+
+    accuracy                           0.67        42
+   macro avg       0.67      0.68      0.66        42
+weighted avg       0.70      0.67      0.67        42
+
+--------------------------------------------------
+Epoch 4/30
+Training Loss: 0.5434
+Validation Accuracy: 0.6190
+ROC AUC: 0.7740
+F1 Score: 0.6243
+Confusion matrix: 
+[[10  6]
+ [10 16]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.50      0.62      0.56        16
+     Class 1       0.73      0.62      0.67        26
+
+    accuracy                           0.62        42
+   macro avg       0.61      0.62      0.61        42
+weighted avg       0.64      0.62      0.62        42
+
+--------------------------------------------------
+Epoch 5/30
+Training Loss: 0.4819
+Validation Accuracy: 0.8571
+ROC AUC: 0.9038
+F1 Score: 0.8550
+Confusion matrix: 
+[[12  4]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.86      0.75      0.80        16
+     Class 1       0.86      0.92      0.89        26
+
+    accuracy                           0.86        42
+   macro avg       0.86      0.84      0.84        42
+weighted avg       0.86      0.86      0.86        42
+
+--------------------------------------------------
+Epoch 6/30
+Training Loss: 0.4529
+Validation Accuracy: 0.8095
+ROC AUC: 0.8630
+F1 Score: 0.8067
+Confusion matrix: 
+[[11  5]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.79      0.69      0.73        16
+     Class 1       0.82      0.88      0.85        26
+
+    accuracy                           0.81        42
+   macro avg       0.80      0.79      0.79        42
+weighted avg       0.81      0.81      0.81        42
+
+--------------------------------------------------
+Epoch 7/30
+Training Loss: 0.4441
+Validation Accuracy: 0.8095
+ROC AUC: 0.8702
+F1 Score: 0.8067
+Confusion matrix: 
+[[11  5]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.79      0.69      0.73        16
+     Class 1       0.82      0.88      0.85        26
+
+    accuracy                           0.81        42
+   macro avg       0.80      0.79      0.79        42
+weighted avg       0.81      0.81      0.81        42
+
+--------------------------------------------------
+Epoch 8/30
+Training Loss: 0.3647
+Validation Accuracy: 0.8095
+ROC AUC: 0.8894
+F1 Score: 0.8067
+Confusion matrix: 
+[[11  5]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.79      0.69      0.73        16
+     Class 1       0.82      0.88      0.85        26
+
+    accuracy                           0.81        42
+   macro avg       0.80      0.79      0.79        42
+weighted avg       0.81      0.81      0.81        42
+
+--------------------------------------------------
+Epoch 9/30
+Training Loss: 0.3575
+Validation Accuracy: 0.8571
+ROC AUC: 0.9279
+F1 Score: 0.8585
+Confusion matrix: 
+[[14  2]
+ [ 4 22]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.78      0.88      0.82        16
+     Class 1       0.92      0.85      0.88        26
+
+    accuracy                           0.86        42
+   macro avg       0.85      0.86      0.85        42
+weighted avg       0.86      0.86      0.86        42
+
+--------------------------------------------------
+Epoch 10/30
+Training Loss: 0.3420
+Validation Accuracy: 0.8810
+ROC AUC: 0.9375
+F1 Score: 0.8816
+Confusion matrix: 
+[[14  2]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.82      0.88      0.85        16
+     Class 1       0.92      0.88      0.90        26
+
+    accuracy                           0.88        42
+   macro avg       0.87      0.88      0.88        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 11/30
+Training Loss: 0.2821
+Validation Accuracy: 0.8095
+ROC AUC: 0.9231
+F1 Score: 0.8067
+Confusion matrix: 
+[[11  5]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.79      0.69      0.73        16
+     Class 1       0.82      0.88      0.85        26
+
+    accuracy                           0.81        42
+   macro avg       0.80      0.79      0.79        42
+weighted avg       0.81      0.81      0.81        42
+
+--------------------------------------------------
+Epoch 12/30
+Training Loss: 0.2920
+Validation Accuracy: 0.8571
+ROC AUC: 0.9231
+F1 Score: 0.8571
+Confusion matrix: 
+[[13  3]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.81      0.81      0.81        16
+     Class 1       0.88      0.88      0.88        26
+
+    accuracy                           0.86        42
+   macro avg       0.85      0.85      0.85        42
+weighted avg       0.86      0.86      0.86        42
+
+--------------------------------------------------
+Epoch 13/30
+Training Loss: 0.2294
+Validation Accuracy: 0.8571
+ROC AUC: 0.9231
+F1 Score: 0.8571
+Confusion matrix: 
+[[13  3]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.81      0.81      0.81        16
+     Class 1       0.88      0.88      0.88        26
+
+    accuracy                           0.86        42
+   macro avg       0.85      0.85      0.85        42
+weighted avg       0.86      0.86      0.86        42
+
+--------------------------------------------------
+Epoch 14/30
+Training Loss: 0.2235
+Validation Accuracy: 0.8810
+ROC AUC: 0.9303
+F1 Score: 0.8816
+Confusion matrix: 
+[[14  2]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.82      0.88      0.85        16
+     Class 1       0.92      0.88      0.90        26
+
+    accuracy                           0.88        42
+   macro avg       0.87      0.88      0.88        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 15/30
+Training Loss: 0.1864
+Validation Accuracy: 0.9286
+ROC AUC: 0.9279
+F1 Score: 0.9281
+Confusion matrix: 
+[[14  2]
+ [ 1 25]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.93      0.88      0.90        16
+     Class 1       0.93      0.96      0.94        26
+
+    accuracy                           0.93        42
+   macro avg       0.93      0.92      0.92        42
+weighted avg       0.93      0.93      0.93        42
+
+--------------------------------------------------
+Epoch 16/30
+Training Loss: 0.1903
+Validation Accuracy: 0.8810
+ROC AUC: 0.9423
+F1 Score: 0.8816
+Confusion matrix: 
+[[14  2]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.82      0.88      0.85        16
+     Class 1       0.92      0.88      0.90        26
+
+    accuracy                           0.88        42
+   macro avg       0.87      0.88      0.88        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 17/30
+Training Loss: 0.1450
+Validation Accuracy: 0.9286
+ROC AUC: 0.9663
+F1 Score: 0.9290
+Confusion matrix: 
+[[15  1]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.94      0.91        16
+     Class 1       0.96      0.92      0.94        26
+
+    accuracy                           0.93        42
+   macro avg       0.92      0.93      0.93        42
+weighted avg       0.93      0.93      0.93        42
+
+--------------------------------------------------
+Epoch 18/30
+Training Loss: 0.1231
+Validation Accuracy: 0.8810
+ROC AUC: 0.9447
+F1 Score: 0.8816
+Confusion matrix: 
+[[14  2]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.82      0.88      0.85        16
+     Class 1       0.92      0.88      0.90        26
+
+    accuracy                           0.88        42
+   macro avg       0.87      0.88      0.88        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 19/30
+Training Loss: 0.1271
+Validation Accuracy: 0.8810
+ROC AUC: 0.9375
+F1 Score: 0.8816
+Confusion matrix: 
+[[14  2]
+ [ 3 23]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.82      0.88      0.85        16
+     Class 1       0.92      0.88      0.90        26
+
+    accuracy                           0.88        42
+   macro avg       0.87      0.88      0.88        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 20/30
+Training Loss: 0.1257
+Validation Accuracy: 0.9048
+ROC AUC: 0.9447
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 21/30
+Training Loss: 0.0930
+Validation Accuracy: 0.9048
+ROC AUC: 0.9471
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 22/30
+Training Loss: 0.0920
+Validation Accuracy: 0.9048
+ROC AUC: 0.9495
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 23/30
+Training Loss: 0.0764
+Validation Accuracy: 0.9048
+ROC AUC: 0.9567
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 24/30
+Training Loss: 0.0678
+Validation Accuracy: 0.9048
+ROC AUC: 0.9591
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 25/30
+Training Loss: 0.0590
+Validation Accuracy: 0.9048
+ROC AUC: 0.9519
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 26/30
+Training Loss: 0.0599
+Validation Accuracy: 0.8810
+ROC AUC: 0.9567
+F1 Score: 0.8802
+Confusion matrix: 
+[[13  3]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.87      0.81      0.84        16
+     Class 1       0.89      0.92      0.91        26
+
+    accuracy                           0.88        42
+   macro avg       0.88      0.87      0.87        42
+weighted avg       0.88      0.88      0.88        42
+
+--------------------------------------------------
+Epoch 27/30
+Training Loss: 0.0531
+Validation Accuracy: 0.9048
+ROC AUC: 0.9591
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 28/30
+Training Loss: 0.0670
+Validation Accuracy: 0.9048
+ROC AUC: 0.9423
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 29/30
+Training Loss: 0.0608
+Validation Accuracy: 0.9048
+ROC AUC: 0.9543
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epoch 30/30
+Training Loss: 0.0413
+Validation Accuracy: 0.9048
+ROC AUC: 0.9591
+F1 Score: 0.9048
+Confusion matrix: 
+[[14  2]
+ [ 2 24]]
+Classification Report:
+              precision    recall  f1-score   support
+
+     Class 0       0.88      0.88      0.88        16
+     Class 1       0.92      0.92      0.92        26
+
+    accuracy                           0.90        42
+   macro avg       0.90      0.90      0.90        42
+weighted avg       0.90      0.90      0.90        42
+
+--------------------------------------------------
+Epochs loss: [0.7084549878447475, 0.6150525926856555, 0.5591456683980629, 0.54344536918041, 0.48191002930275645, 0.4529152254893388, 0.4441352068347271, 0.3646795097792183, 0.35751348390359355, 0.34198798260702523, 0.28211222825201515, 0.2919991447533929, 0.22944137372441525, 0.22352466133211119, 0.1864394764992964, 0.19027929622089484, 0.1449712129250727, 0.12305800144370076, 0.12711171391460324, 0.12573900715761982, 0.09301312912996289, 0.091962644578057, 0.07641501750485698, 0.0678236327786267, 0.05901901488345363, 0.05992871937301729, 0.053090892426175755, 0.06702543270132727, 0.06079329722037576, 0.04126970165057554]
+
+Train_accuracies = [
+    0.5533, 0.6710, 0.6941, 0.7224, 0.7789, 0.8226, 0.8226, 0.8766, 0.8766, 
+    0.8895, 0.9075, 0.9049, 0.9460, 0.9460, 0.9614, 0.9512, 0.9666, 0.9794, 
+    0.9742, 0.9845, 0.9871, 0.9923, 0.9949, 0.9949, 0.9949, 0.9949, 0.9949, 
+    0.9949, 0.9974, 0.9974, 0.9692, 0.9692, 0.9743, 0.9794, 0.9846, 0.9846, 
+    0.9871, 0.9794, 0.9820, 0.9846, 0.9794, 0.9871
+]
+
+Validation_accuracies = [
+    0.6190, 0.3333, 0.6667, 0.6190, 0.8571, 0.8095, 0.8095, 0.8095, 0.8571, 
+    0.8810, 0.8095, 0.8571, 0.8571, 0.8810, 0.9286, 0.8810, 0.9286, 0.8810, 
+    0.8571, 0.9286, 0.8571, 0.9524, 0.9048, 0.9286, 0.9524, 0.9048, 0.9286, 
+    0.9524, 0.9286, 0.9762, 0.8810, 0.9048, 0.9048, 0.9048, 0.9048, 0.9048, 
+    0.9048, 0.9048, 0.9048, 0.9048, 0.9048
+]
