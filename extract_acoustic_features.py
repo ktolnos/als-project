@@ -68,13 +68,13 @@ files = glob.glob(folder+"*.wav", recursive=True)
 count=1
 
 # Upload the final consolidated  dataframe
-metadata_path = "/Users/mahrikadyrova/Desktop/github_repos/als-project/data/final_consolidated_dataset_Fletcher.csv"
+metadata_path = "/Users/user/Desktop/github_repos/als-project/filtered/data/filtered_final_consolidated_dataset_Fletcher.csv"
 df = pd.read_csv(metadata_path)
-relative_path = os.path.dirname(os.path.dirname(metadata_path))
+relative_path = os.path.dirname(os.path.dirname(os.path.dirname(metadata_path)))
 
 
 # Get the column names by running the analysis on one file to see what it returns
-first_path = df.loc[1,"file_path"]
+first_path = df.loc[944,"filtered_file_path"]
 first_path =  os.path.join(relative_path, first_path)
 sample_output = run_analysis_single(first_path, pr_script, tg_script)
 
@@ -85,12 +85,12 @@ new_columns = df.columns.to_list() + sample_output.columns.to_list()
 combined_rows = []
 error = []
 
-df_948 = df.iloc[948:,:]
+df_948 = df.iloc[945:,:]
 
 
 for index, row in df_948.iterrows():
 
-    file_path = os.path.join(relative_path, row['file_path'])
+    file_path = os.path.join(relative_path, row['filtered_file_path'])
     print(f"{count}  ->  {os.path.basename(file_path)}")
 
     try:
@@ -101,7 +101,7 @@ for index, row in df_948.iterrows():
         print(combined_row)
 
         total_output = pd.DataFrame(combined_rows, columns=new_columns)
-        total_output.to_csv(os.path.join(relative_path, "metadata_acoustic_clinical.csv"))   
+        total_output.to_csv(os.path.join(relative_path, "filtered_metadata_acoustic_clinical.csv"))   
 
         count += 1
     except:

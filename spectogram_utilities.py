@@ -37,11 +37,11 @@ def create_augmented_spectogram(audio_file, image_file, augmented_image_file):
     flipped_image.save(augmented_image_file)
 
 
-df_voiced = pd.read_csv("/Users/mahrikadyrova/Desktop/github_repos/als-project/final_metadata_acoustic_features.csv")
+df_voiced = pd.read_csv("/Users/user/Desktop/github_repos/als-project/final_metadata_acoustic_features.csv")
 
 updated_column_names = df_voiced.columns.to_list() + ["spectogram_file_path", "spectogram_type"]
 
-relative_path = "/Users/mahrikadyrova/Desktop/github_repos/als-project"
+relative_path = "/Users/user/Desktop/github_repos/als-project"
 updated_rows = []
 
 orig_spectogram = "spectogram"

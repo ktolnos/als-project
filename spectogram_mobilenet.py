@@ -81,7 +81,7 @@ def save_spectograms(paths, folder_to_create="spectograms"):
     new_file_paths = []
 
     for file in paths:
-        print("Original file:",file)
+        # print("Original file:",file)
 
         relative_path = os.path.dirname(file)
 
@@ -110,7 +110,7 @@ def get_images_labels(image_paths, labels):
     y = []  # List to store labels
 
     for path, label in zip(image_paths, labels):
-        print(f"Label: {label}, Path: {path}")
+        # print(f"Label: {label}, Path: {path}")
 
         # Load the image and label
         image, label = load_images_from_path(path, label)
@@ -169,9 +169,11 @@ def augment_and_save_spectograms(image_paths, labels, augmented_folder="augmente
 # Resnet specs : https://pytorch.org/hub/pytorch_vision_resnet/
 
 class ModelTrainer:
-    def __init__(self, model, x, y, dataset, phoneme, num_epochs=10, batch_size=32, lr=0.0001):
+    def __init__(self, model, x, y, dataset, phoneme, num_epochs=10, batch_size=32, lr=0.0001, model_type="resnet"):
 
-        self.log_file = open(f'spectogram_training_log_{dataset[0]}_{phoneme[0].lower()}.txt', 'w')
+        print("Model specified:", model_type)
+
+        self.log_file = open(f'{model_type}_spectogram_training_log_{dataset[0]}_{phoneme[0].lower()}.txt', 'w')
 
         self.val_roc_aucs = []
         self.confusion_matrices = []
@@ -216,10 +218,21 @@ class ModelTrainer:
         # MobileNetV2 setup
         self.model = model
         self.model.to(device)
-        self.model.classifier = nn.Sequential(
-            nn.Dropout(0.2),
-            nn.Linear(self.model.last_channel, len(np.unique(y)))  
-        )
+
+        if model_type == "resnet":
+            num_features = self.model.fc.in_features
+            self.model.fc = nn.Sequential(
+                nn.Dropout(0.2),
+                nn.Linear(num_features, len(np.unique(y)))  
+            ).to(device)
+        elif model_type == "mobilenet":
+            print("Mobilenet specs used.")
+            self.model.classifier = nn.Sequential(
+                nn.Dropout(0.2),
+                nn.Linear(self.model.last_channel, len(np.unique(y)))  
+            ).to(device)
+        else:
+            print("The model was not specified")
 
         # Set up loss function and optimizer
         self.criterion = nn.CrossEntropyLoss()
@@ -376,8 +389,8 @@ class ModelTrainer:
         self.log_file.close()
         # self.plot_auc_roc(all_labels, all_probabilities)
         # self.plot_confusion_matrix(cm)
-        self.plot_accuracy()
-        self.plot_loss()
+        # self.plot_accuracy()
+        # self.plot_loss()
 
     def plot_auc_roc(self, labels, probabilities):
 
@@ -446,39 +459,67 @@ class ModelTrainer:
 mobilenet_model = models.mobilenet_v2(pretrained=True)
 resnet_model = models.resnet50(pretrained=True)
 
-df_voiced = pd.read_csv("/Users/mahrikadyrova/Desktop/github_repos/als-project/MAHRIS_spectogram_acoustic_features.csv")
+df_voiced = pd.read_csv("/Users/user/Desktop/github_repos/als-project/MAHRIS_spectogram_acoustic_features.csv")
 
-dataset_choice = ["PD_dataset_1", "PD_dataset_2","PD_dataset_3","Italian"]
-phoneme_choice = ["A", "a"]
-class_1 = 'PD'
+dataset_choices = [
+    # ["MSA", "PD_dataset_2"],
+    # ["PSP", "PD_dataset_2"],
+    # ["PD_dataset_1", "PD_dataset_2", "PD_dataset_3", "Italian"],
+    ["VOC-ALS", "MINSK"]
+]
+phoneme_choices = [
+    ["I", "i"],
+    # ["A", "a"],
+    # ["E", "e"],
+    # ["O", "o"],
+    # ["U", " u"]
+]
+# class_1 = ["MSA", "PSP", "PD", "ALS"]
+class_1 = [ "ALS"]
 class_0 = 'HC'
+model_types = [
+    # "resnet",
+    "mobilenet"
+]
 
-df_voiced_als = df_voiced[(df_voiced["Dataset"].isin(dataset_choice))]
+for model_type in model_types:
+    print(f"Model: {model_type} \n")
+    for i, dataset_choice in enumerate(dataset_choices):
+        print(f"Dataset: {dataset_choice}\n")
+        df_voiced_als = df_voiced[(df_voiced["Dataset"].isin(dataset_choice))]
 
-df_voiced_als_a = df_voiced_als[df_voiced_als['Phoneme'].isin(phoneme_choice)]
+        for phoneme_choice in phoneme_choices:
+            if model_type == "resnet":
+                model = resnet_model
+            else:
+                model = mobilenet_model
+            print(f"Phoneme: {phoneme_choice}\n")
+            df_voiced_als_a = df_voiced_als[df_voiced_als['Phoneme'].isin(phoneme_choice)]
 
-df_voiced_als_a.loc[:,'label'] = df_voiced_als_a.loc[:,'label'].map({class_1: 1, class_0: 0})
+            df_voiced_als_a.loc[:,'label'] = df_voiced_als_a.loc[:,'label'].map({class_1[i]: 1, class_0: 0})
 
-augmented_df = df_voiced_als_a.reset_index(drop=True)
-augmented_idxs = augmented_df[augmented_df['spectogram_type']=='augmented'].index
+            df_voiced_als_a = df_voiced_als_a.dropna(subset=['label'])
 
-# new_filepaths = save_spectograms(df_voiced_als_a['voiced_file_path'])
+            augmented_df = df_voiced_als_a.reset_index(drop=True)
+            augmented_idxs = augmented_df[augmented_df['spectogram_type']=='augmented'].index
 
-# df_voiced_als_a.insert(loc=2, column="spectogram_file_path", value=new_filepaths)
+            # new_filepaths = save_spectograms(df_voiced_als_a['voiced_file_path'])
 
-x, y = get_images_labels(df_voiced_als_a["spectogram_file_path"], df_voiced_als_a['label'])
-print(f"Size of X and Y: {x.shape, y.shape}")
+            # df_voiced_als_a.insert(loc=2, column="spectogram_file_path", value=new_filepaths)
 
-# show_images(x[:10])
+            x, y = get_images_labels(df_voiced_als_a["spectogram_file_path"], df_voiced_als_a['label'])
+            print(f"Size of X and Y: {x.shape, y.shape}\n")
 
-trainer = ModelTrainer(mobilenet_model, x,y, dataset_choice, phoneme_choice, num_epochs=30, batch_size=20, lr=0.00001)
+            # show_images(x[:10])
 
-# Visualize the training DataLoader
-# trainer.visualise_dataloader(trainer.train_loader, id_to_label=trainer.id_to_label)
+            trainer = ModelTrainer(model, x,y, dataset_choice, phoneme_choice, num_epochs=30, batch_size=20, lr=0.00001,  model_type=model_type)
 
-# # Visualize the test DataLoader
-# trainer.visualise_dataloader(trainer.test_loader, id_to_label=trainer.id_to_label)
+            # Visualize the training DataLoader
+            # trainer.visualise_dataloader(trainer.train_loader, id_to_label=trainer.id_to_label)
 
-trainer.train()
+            # # Visualize the test DataLoader
+            # trainer.visualise_dataloader(trainer.test_loader, id_to_label=trainer.id_to_label)
+
+            trainer.train()
 
 
